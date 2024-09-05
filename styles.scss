@@ -62,7 +62,7 @@ body {
       font-size: 20px;
     }
 
-    &-icon:nth-child(2) {
+    &-icon {
       padding-left: 15px;
     }
   }
@@ -74,6 +74,8 @@ body {
 
 @media (max-width: 1500px) {
   .header {
+    padding: 20px 48px;
+
     &__contacts {
       display: none;
     }
